@@ -16,11 +16,11 @@ button.addEventListener('click',
 
         // Confronto tra i 2 numeri e stampo il vincitore nel DOM
         if (userNumberRandom > computerNumberRandom) {
-            document.getElementById('winner-number').innerHTML = 'Hai vinto!!!'
+            document.getElementById('winner-number').innerHTML = 'Hai vinto!!!';
         } else if (userNumberRandom < computerNumberRandom) {
-            document.getElementById('winner-number').innerHTML = 'Hai perso :('
+            document.getElementById('winner-number').innerHTML = 'Hai perso :(';
         } else if (userNumberRandom === computerNumberRandom) {
-            document.getElementById('winner-number').innerHTML = 'Pareggio :|'
+            document.getElementById('winner-number').innerHTML = 'Pareggio :|';
         }
     }
 )
